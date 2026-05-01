@@ -18,7 +18,7 @@ QuantumLLAMA ETF Pro es una solución avanzada de trading algorítmico que combi
 - **Gestión de Riesgo:** Control dinámico de posición y stop-loss avanzado.
 - **Análisis de Resultados:** Generación automática de reportes detallados en Excel y visualizaciones (PNG).
 
-## 📂 Estructura del Proyecto
+## 📂 Estructura del Proyecto 
 
 ```text
 ├── core/               # Lógica central (configuración, datos, bridge MT5)
