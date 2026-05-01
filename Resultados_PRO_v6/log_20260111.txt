@@ -1,0 +1,1087 @@
+[2026-01-11 17:13:33.937867][INFO] Script v6.0 LLAMA IA cargado y listo 
+[2026-01-11 17:13:34.065619][INFO] ====================================================================== 
+[2026-01-11 17:13:34.089056][INFO] SISTEMA ETF PRO v6.0 - LLAMA IA 
+[2026-01-11 17:13:34.108278][INFO] ====================================================================== 
+[2026-01-11 17:13:34.128913][INFO] Fecha: 2026-01-11 17:13:34.128942 
+[2026-01-11 17:13:34.155025][INFO] Activos: VTI, VIG, VNQ, BND, GLD, SPY, IEF, VCIT, XLK, TLT 
+[2026-01-11 17:13:34.18043][INFO] Capital: $ 100,000 
+[2026-01-11 17:13:34.20701][INFO] Iniciando dashboard Shiny... 
+[2026-01-11 17:13:39.287171][INFO] ✓ Confidence cargada desde caché 
+[2026-01-11 17:13:53.26186][INFO] Descargando 10 símbolos... 
+[2026-01-11 17:13:54.504721][INFO] ✓ VTI: 1766 obs 
+[2026-01-11 17:13:55.240396][INFO] ✓ VIG: 1766 obs 
+[2026-01-11 17:13:55.860403][INFO] ✓ VNQ: 1766 obs 
+[2026-01-11 17:13:57.038506][INFO] ✓ BND: 1766 obs 
+[2026-01-11 17:13:57.720511][INFO] ✓ GLD: 1766 obs 
+[2026-01-11 17:13:58.497117][INFO] ✓ SPY: 1766 obs 
+[2026-01-11 17:13:59.232275][INFO] ✓ IEF: 1766 obs 
+[2026-01-11 17:13:59.847766][INFO] ✓ VCIT: 1766 obs 
+[2026-01-11 17:14:00.628339][INFO] ✓ XLK: 1766 obs 
+[2026-01-11 17:14:01.251119][INFO] ✓ TLT: 1766 obs 
+[2026-01-11 17:14:01.275987][INFO] Datos combinados: 1766 filas, 10 activos 
+[2026-01-11 17:14:53.974698][INFO] Descargando 10 símbolos... 
+[2026-01-11 17:14:54.76444][INFO] ✓ VTI: 1766 obs 
+[2026-01-11 17:14:55.505211][INFO] ✓ VIG: 1766 obs 
+[2026-01-11 17:14:56.256259][INFO] ✓ VNQ: 1766 obs 
+[2026-01-11 17:14:56.966283][INFO] ✓ BND: 1766 obs 
+[2026-01-11 17:14:57.677029][INFO] ✓ GLD: 1766 obs 
+[2026-01-11 17:14:58.471107][INFO] ✓ SPY: 1766 obs 
+[2026-01-11 17:14:59.227331][INFO] ✓ IEF: 1766 obs 
+[2026-01-11 17:14:59.882855][INFO] ✓ VCIT: 1766 obs 
+[2026-01-11 17:15:00.862741][INFO] ✓ XLK: 1766 obs 
+[2026-01-11 17:15:01.575731][INFO] ✓ TLT: 1766 obs 
+[2026-01-11 17:15:01.594812][INFO] Datos combinados: 1766 filas, 10 activos 
+[2026-01-11 17:15:01.804243][INFO] Walk-Forward: Train = 378 | Test = 63 
+[2026-01-11 17:15:01.840061][INFO] Creando features para 10 activos... 
+[2026-01-11 17:15:02.657322][INFO] Features creadas 
+[2026-01-11 17:15:02.675157][INFO] Entrenando VTI (1/10) 
+[2026-01-11 17:15:13.800091][INFO]   ✓ VTI: 22 ventanas 
+[2026-01-11 17:15:13.815225][INFO] Entrenando VIG (2/10) 
+[2026-01-11 17:15:24.443463][INFO]   ✓ VIG: 22 ventanas 
+[2026-01-11 17:15:24.465342][INFO] Entrenando VNQ (3/10) 
+[2026-01-11 17:15:35.618169][INFO]   ✓ VNQ: 22 ventanas 
+[2026-01-11 17:15:35.640214][INFO] Entrenando BND (4/10) 
+[2026-01-11 17:15:47.941765][INFO]   ✓ BND: 22 ventanas 
+[2026-01-11 17:15:47.998856][INFO] Entrenando GLD (5/10) 
+[2026-01-11 17:15:58.710629][INFO]   ✓ GLD: 22 ventanas 
+[2026-01-11 17:15:58.726582][INFO] Entrenando SPY (6/10) 
+[2026-01-11 17:16:09.175905][INFO]   ✓ SPY: 22 ventanas 
+[2026-01-11 17:16:09.193097][INFO] Entrenando IEF (7/10) 
+[2026-01-11 17:16:19.143839][INFO]   ✓ IEF: 22 ventanas 
+[2026-01-11 17:16:19.162569][INFO] Entrenando VCIT (8/10) 
+[2026-01-11 17:16:29.544431][INFO]   ✓ VCIT: 22 ventanas 
+[2026-01-11 17:16:29.560025][INFO] Entrenando XLK (9/10) 
+[2026-01-11 17:16:41.003214][INFO]   ✓ XLK: 22 ventanas 
+[2026-01-11 17:16:41.024115][INFO] Entrenando TLT (10/10) 
+[2026-01-11 17:16:52.175508][INFO]   ✓ TLT: 22 ventanas 
+[2026-01-11 17:16:52.194759][INFO] Walk-Forward completado: 10 modelos 
+[2026-01-11 17:16:52.216542][INFO] ✓ Confidence generada: 1766 filas x 10 activos 
+[2026-01-11 17:16:52.524093][INFO] Simulando portafolio: 1766 períodos 
+[2026-01-11 17:16:52.551027][INFO] ✓ Confidence recibida en simulate_portfolio: 1766 x 10 
+[2026-01-11 17:16:52.727253][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:52.74988][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:52.7786][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:52.822622][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:52.844762][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:52.874803][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:52.905332][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:52.931618][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:52.959329][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:52.990779][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:53.026801][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:53.060153][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:53.094504][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:53.13112][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:53.15972][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:53.187674][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:53.215828][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:53.248958][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:53.289959][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:53.319631][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:53.35932][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:53.391552][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:53.427599][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:53.450467][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:53.493751][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:53.571979][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:53.614945][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:16:53.646819][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:53.691621][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:16:53.722649][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:53.759768][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:16:53.798279][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:53.847092][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:16:53.878504][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:16:53.915703][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:53.955663][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:53.991388][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:16:54.027948][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:16:54.0698][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:54.106337][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:16:54.139282][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:16:54.166894][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:16:54.208819][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:54.245101][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:54.273563][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:54.310585][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:54.34024][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:54.372473][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:54.402958][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:54.430061][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:54.46123][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:54.494602][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:54.53378][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:54.573587][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:54.613841][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:54.64808][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:54.681211][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:54.713965][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:54.756902][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:54.791867][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:54.822708][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:54.863976][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:16:54.894912][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:54.927501][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:54.96331][WARN] Stop loss: XLK (-3.56%) 
+[2026-01-11 17:16:54.99728][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:55.031477][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:16:55.063351][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:55.099377][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:55.13393][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:55.167018][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:55.199078][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:16:55.230517][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:16:55.265076][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:16:55.296275][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:16:55.331622][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:55.370037][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:55.443742][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:55.482694][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:55.510229][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:55.542792][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:55.573952][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:55.616368][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:55.646718][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:55.679712][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:55.711623][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:16:55.747505][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:55.781227][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:16:55.828121][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:55.864026][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:55.9026][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:55.939078][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:16:55.972043][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:16:56.000023][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:16:56.041343][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:56.074573][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:56.107756][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:16:56.134072][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:56.171418][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:56.204257][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:56.228043][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:56.266461][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:56.302686][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:56.329964][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:16:56.365855][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:56.410292][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:56.438666][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:16:56.477706][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:56.507404][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:16:56.546883][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:56.575641][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:56.605694][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:16:56.629497][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:56.663154][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:56.697563][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:56.769261][WARN] Stop loss: VTI (-2.28%) 
+[2026-01-11 17:16:56.790406][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:56.830359][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:56.859108][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:56.888408][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:56.917786][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:56.950656][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:56.979233][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:57.006088][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:57.051752][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:57.179795][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:16:57.231887][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:16:57.257134][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:57.379165][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:16:57.422082][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:57.475212][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:16:57.510759][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:57.5526][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:16:57.586715][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:57.616234][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:16:57.649296][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:57.677937][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:57.712813][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:57.744871][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:16:57.776356][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:57.805863][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:16:57.830418][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:57.863082][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:57.888762][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:57.921766][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:57.954282][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:57.99039][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:58.021128][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:58.059321][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:58.081665][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:58.117065][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:58.148743][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:58.187515][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:58.218149][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:58.24342][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:16:58.271498][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:58.339664][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:58.377054][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:58.410958][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:58.440577][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:58.471627][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:58.503277][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:58.532578][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:58.562931][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:58.598679][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:58.619001][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:58.654282][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:58.691288][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:58.727767][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:58.749209][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:58.790397][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:58.824765][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:58.860122][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:58.892343][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:58.924317][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:58.963639][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:58.996509][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:59.023206][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:59.058404][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:59.093424][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:59.13238][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:59.159435][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:59.199297][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:59.23207][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:59.274627][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:59.312485][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:59.343305][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:59.379847][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:59.414008][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:59.44879][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:59.489032][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:59.525168][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:16:59.555051][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:59.595457][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:16:59.62221][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:59.662446][WARN] Stop loss: XLK (-2.34%) 
+[2026-01-11 17:16:59.686044][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:59.713892][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:16:59.748093][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:59.781154][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:59.819676][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:59.85553][WARN] Stop loss: VTI (-2.02%) 
+[2026-01-11 17:16:59.888248][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:16:59.924254][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:16:59.95423][ERROR] CIRCUIT BREAKER: DD=-20.43% 
+[2026-01-11 17:16:59.985916][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:00.032975][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:00.060706][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:00.092154][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:00.129374][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:00.16306][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:00.198725][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:00.225166][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:00.248686][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:00.283168][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:00.30889][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:00.335676][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:00.361875][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:00.392138][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:00.415367][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:00.458944][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:00.48945][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:00.521699][WARN] Stop loss: VNQ (-2.90%) 
+[2026-01-11 17:17:00.548862][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:00.621647][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:00.656027][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:00.685341][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:00.7186][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:00.752417][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:00.779477][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:00.822366][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:00.865408][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:00.89306][WARN] Stop loss: XLK (-2.34%) 
+[2026-01-11 17:17:00.924991][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:00.956815][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:00.990952][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:01.023688][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:01.061904][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:01.091701][INFO] Take profit: XLK (4.28%) 
+[2026-01-11 17:17:01.135139][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:01.166235][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:01.20673][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:01.231017][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:01.264657][WARN] Stop loss: VTI (-2.41%) 
+[2026-01-11 17:17:01.305718][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:01.341236][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:01.365472][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:01.400116][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:01.432431][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:01.46419][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:01.496172][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:01.52858][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:01.559099][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:01.596747][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:01.627242][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:01.658822][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:01.689164][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:01.721839][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:01.749909][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:01.779784][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:01.8057][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:01.831833][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:01.863451][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:01.89251][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:01.929766][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:01.965013][WARN] Stop loss: VTI (-2.89%) 
+[2026-01-11 17:17:02.003737][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:02.035798][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:02.066951][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:02.103647][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:02.126188][WARN] Stop loss: VTI (-3.74%) 
+[2026-01-11 17:17:02.152435][WARN] Stop loss: SPY (-3.77%) 
+[2026-01-11 17:17:02.181254][WARN] Stop loss: XLK (-4.26%) 
+[2026-01-11 17:17:02.215085][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:02.244579][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:02.274983][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:02.307836][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:02.338372][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:02.362788][WARN] Stop loss: VTI (-3.76%) 
+[2026-01-11 17:17:02.395141][WARN] Stop loss: SPY (-3.62%) 
+[2026-01-11 17:17:02.423194][WARN] Stop loss: TLT (-2.78%) 
+[2026-01-11 17:17:02.463598][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:02.489969][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:02.519199][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:02.546296][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:02.574818][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:02.598787][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:02.626815][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:02.711114][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:02.73973][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:02.764071][WARN] Stop loss: VNQ (-2.95%) 
+[2026-01-11 17:17:02.805618][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:02.826533][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:02.851537][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:02.880296][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:02.910567][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:02.937572][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:02.961398][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:02.99509][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:03.036554][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:03.061536][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:03.091083][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:03.12302][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:03.147236][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:03.178763][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:03.210007][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:03.246761][WARN] Stop loss: XLK (-4.16%) 
+[2026-01-11 17:17:03.274979][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:03.306307][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:03.329831][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:03.357788][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:03.387915][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:03.412073][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:03.441882][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:03.461826][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:03.492438][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:03.52311][WARN] Stop loss: VTI (-2.08%) 
+[2026-01-11 17:17:03.54407][WARN] Stop loss: SPY (-2.06%) 
+[2026-01-11 17:17:03.573781][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:03.602928][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:03.629763][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:03.664299][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:03.691689][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:03.712781][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:03.742057][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:03.764607][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:03.80423][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:03.831078][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:03.856853][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:03.888326][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:03.913607][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:03.940424][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:03.973188][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:04.007325][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:04.037968][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:04.063449][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:04.091524][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:04.116863][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:04.144885][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:04.172861][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:04.195043][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:04.226715][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:04.265495][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:04.28681][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:04.312733][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:04.342654][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:04.407538][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:04.442863][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:04.472874][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:04.497877][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:04.532887][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:04.559625][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:04.594065][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:04.624728][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:04.654995][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:04.679799][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:04.718047][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:04.756611][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:04.779952][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:04.82402][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:04.854394][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:04.878935][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:04.90823][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:04.939479][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:04.974714][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:05.008511][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:05.043913][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:05.076638][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:05.109458][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:05.142411][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:05.171634][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:05.209132][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:05.236793][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:05.270462][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:05.314789][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:05.342005][WARN] Stop loss: TLT (-2.51%) 
+[2026-01-11 17:17:05.370522][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:05.403633][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:05.429988][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:05.457844][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:05.492787][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:05.518013][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:05.553479][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:05.588857][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:05.621985][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:05.647973][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:05.681195][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:05.711056][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:05.754941][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:05.777157][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:05.839216][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:05.874255][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:05.896312][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:05.972159][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:06.023462][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:06.055715][WARN] Stop loss: VTI (-2.10%) 
+[2026-01-11 17:17:06.097083][WARN] Stop loss: VNQ (-2.98%) 
+[2026-01-11 17:17:06.122102][WARN] Stop loss: SPY (-2.11%) 
+[2026-01-11 17:17:06.146414][WARN] Stop loss: XLK (-2.64%) 
+[2026-01-11 17:17:06.220431][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:06.243069][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:06.2802][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:06.305793][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:06.339745][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:06.356894][WARN] Stop loss: VTI (-2.90%) 
+[2026-01-11 17:17:06.380591][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:06.411652][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:06.436457][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:06.461874][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:06.486614][WARN] Stop loss: VTI (-2.38%) 
+[2026-01-11 17:17:06.509879][WARN] Stop loss: VNQ (-2.52%) 
+[2026-01-11 17:17:06.538306][WARN] Stop loss: SPY (-2.31%) 
+[2026-01-11 17:17:06.561761][WARN] Stop loss: XLK (-2.85%) 
+[2026-01-11 17:17:06.587833][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:06.618225][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:06.642527][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:06.670252][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:06.692106][WARN] Stop loss: VNQ (-2.52%) 
+[2026-01-11 17:17:06.715876][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:06.743431][ERROR] CIRCUIT BREAKER: DD=-20.08% 
+[2026-01-11 17:17:06.775533][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:06.796397][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:06.833967][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:06.852853][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:06.876884][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:06.901665][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:06.923718][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:06.950039][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:06.974908][WARN] Stop loss: VTI (-2.67%) 
+[2026-01-11 17:17:07.007641][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:07.038674][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:07.062709][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:07.0778][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:07.104064][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:07.130354][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:07.152223][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:07.180366][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:07.21242][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:07.242469][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:07.266784][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:07.292293][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:07.322447][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:07.345664][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:07.3739][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:07.403373][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:07.43208][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:07.459588][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:07.487451][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:07.522362][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:07.546493][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:07.57402][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:07.64732][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:07.67383][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:07.706346][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:07.739121][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:07.760895][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:07.791351][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:07.812806][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:07.846067][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:07.872201][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:07.895174][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:07.921518][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:07.951018][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:07.975679][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:08.007082][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:08.037097][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:08.065786][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:08.095116][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:08.123344][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:08.151273][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:08.189345][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:08.212139][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:08.240955][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:08.275743][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:08.314813][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:08.341643][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:08.367165][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:08.392357][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:08.421461][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:08.449871][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:08.475793][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:08.506808][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:08.538101][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:08.562362][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:08.595878][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:08.620308][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:08.654511][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:08.682023][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:08.710302][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:08.740359][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:08.773602][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:08.794447][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:08.82466][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:08.856743][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:08.878246][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:08.906326][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:08.933314][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:08.958672][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:08.988936][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:09.055647][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:09.086585][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:09.113788][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:09.137801][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:09.169553][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:09.201564][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:09.226031][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:09.258356][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:09.287222][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:09.318625][WARN] Stop loss: VNQ (-2.17%) 
+[2026-01-11 17:17:09.352047][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:09.391731][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:09.422089][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:09.457566][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:09.488617][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:09.527243][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:09.550728][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:09.585855][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:09.612591][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:09.643695][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:09.673773][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:09.701839][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:09.729877][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:09.758856][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:09.787339][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:09.81096][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:09.842554][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:09.871208][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:09.909476][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:09.940811][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:09.97257][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:10.004158][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:10.036467][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:10.060238][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:10.08609][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:10.119325][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:10.151031][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:10.181841][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:10.208811][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:10.243681][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:10.273601][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:10.312046][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:10.339191][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:10.368109][WARN] Stop loss: TLT (-2.49%) 
+[2026-01-11 17:17:10.389796][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:10.455508][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:10.488076][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:10.516351][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:10.545252][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:10.567696][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:10.591023][ERROR] CIRCUIT BREAKER: DD=-20.01% 
+[2026-01-11 17:17:10.621861][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:10.651394][WARN] Stop loss: TLT (-2.17%) 
+[2026-01-11 17:17:10.674433][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:10.705994][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:10.735764][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:10.762246][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:10.788818][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:10.819823][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:10.851383][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:10.879412][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:10.907637][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:10.937733][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:10.96193][WARN] Stop loss: TLT (-2.75%) 
+[2026-01-11 17:17:10.990121][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:11.012245][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:11.044511][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:11.071277][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:11.096072][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:11.126033][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:11.149608][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:11.178085][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:11.207733][WARN] Stop loss: VNQ (-2.40%) 
+[2026-01-11 17:17:11.228519][WARN] Stop loss: TLT (-2.07%) 
+[2026-01-11 17:17:11.256161][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:11.278372][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:11.309658][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:11.337266][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:11.359195][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:11.396447][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:11.417089][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:11.442653][WARN] Stop loss: TLT (-2.25%) 
+[2026-01-11 17:17:11.466465][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:11.486812][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:11.511741][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:11.540438][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:11.569126][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:11.637628][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:11.676057][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:11.704425][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:11.726119][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:11.752463][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:11.780101][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:11.803893][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:11.827835][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:11.861246][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:11.889211][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:11.924804][WARN] Stop loss: TLT (-2.33%) 
+[2026-01-11 17:17:11.9486][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:11.973242][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:12.002406][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:12.032945][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:12.056836][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:12.08175][INFO] Take profit: VNQ (5.40%) 
+[2026-01-11 17:17:12.107741][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:12.136179][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:12.161064][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:12.191656][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:12.214324][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:12.238292][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:12.267795][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:12.300127][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:12.325611][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:12.349767][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:12.377105][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:12.408597][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:12.457552][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:12.478563][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:12.507][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:12.541463][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:12.571996][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:12.600796][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:12.625255][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:12.655832][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:12.683681][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:12.720282][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:12.753503][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:12.78444][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:12.816766][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:12.843039][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:12.871254][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:12.941975][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:12.98005][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:13.008967][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:13.037582][WARN] Stop loss: TLT (-2.04%) 
+[2026-01-11 17:17:13.061869][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:13.10185][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:13.126167][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:13.154942][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:13.186332][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:13.214729][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:13.245533][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:13.273925][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:13.301088][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:13.326208][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:13.357423][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:13.386962][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:13.409999][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:13.445541][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:13.475554][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:13.511285][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:13.540898][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:13.570937][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:13.595113][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:13.623023][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:13.653111][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:13.683792][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:13.718354][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:13.745027][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:13.776896][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:13.808298][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:13.83731][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:13.868004][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:13.900199][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:13.923656][WARN] Stop loss: XLK (-2.31%) 
+[2026-01-11 17:17:13.950551][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:13.982805][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:14.010191][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:14.044052][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:14.071743][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:14.100626][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:14.150516][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:14.182345][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:14.208269][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:14.236562][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:14.260764][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:14.29864][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:14.327806][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:14.357249][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:14.382941][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:14.411756][WARN] Stop loss: XLK (-4.23%) 
+[2026-01-11 17:17:14.442921][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:14.472809][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:14.503977][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:14.537011][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:14.561566][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:14.593943][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:14.62005][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:14.650432][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:14.677555][WARN] Stop loss: VNQ (-2.90%) 
+[2026-01-11 17:17:14.711621][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:14.744796][WARN] Stop loss: TLT (-2.26%) 
+[2026-01-11 17:17:14.774064][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:14.803352][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:14.833768][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:14.865411][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:14.894167][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:14.919488][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:15.004481][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:15.032804][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:15.058057][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:15.087231][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:15.122029][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:15.15398][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:15.178403][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:15.217554][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:15.294124][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:15.323386][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:15.352211][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:15.376972][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:15.414876][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:15.442876][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:15.473889][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:15.502402][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:15.533354][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:15.556844][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:15.587026][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:15.610892][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:15.639123][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:15.675121][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:15.706418][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:15.739967][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:15.768209][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:15.794926][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:15.827135][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:15.855934][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:15.886137][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:15.908883][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:15.942006][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:15.971706][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:16.00598][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:16.036015][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:16.067299][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:16.094361][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:16.123235][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:16.15242][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:16.173641][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:16.207277][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:16.241275][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:16.277526][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:16.302455][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:16.33436][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:16.357755][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:16.388005][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:16.411038][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:16.489512][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:16.518812][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:16.544539][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:16.574339][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:16.604459][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:16.630095][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:16.657857][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:16.687443][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:16.711041][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:16.736706][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:16.772648][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:16.800698][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:16.836224][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:16.858774][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:16.886963][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:16.909031][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:16.936307][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:16.960444][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:16.988604][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:17.014031][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:17.043037][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:17.072256][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:17.104257][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:17.127774][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:17.192609][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:17.219929][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:17.244081][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:17.274625][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:17.305247][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:17.33297][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:17.369243][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:17.394152][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:17.418248][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:17.4409][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:17.469049][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:17.49332][ERROR] CIRCUIT BREAKER: DD=-20.03% 
+[2026-01-11 17:17:17.518926][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:17.587734][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:17.618133][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:17.638112][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:17.659244][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:17.687462][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:17.709661][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:17.738472][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:17.768766][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:17.790673][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:17.826796][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:17.852347][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:17.874678][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:17.89934][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:17.924513][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:17.952641][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:17.976988][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:17.9998][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:18.031745][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:18.058408][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:18.089663][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:18.155477][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:18.184309][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:18.209064][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:18.233104][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:18.255555][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:18.285531][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:18.308603][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:18.337145][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:18.367336][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:18.390624][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:18.417579][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:18.443711][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:18.466341][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:18.491954][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:18.517853][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:18.54359][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:18.572509][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:18.599869][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:18.630606][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:18.693101][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:18.726438][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:18.75269][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:18.776259][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:18.809077][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:18.826498][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:18.850353][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:18.87228][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:18.89767][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:18.923129][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:18.948176][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:18.975349][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:19.00362][WARN] Stop loss: VNQ (-2.47%) 
+[2026-01-11 17:17:19.03526][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:19.070179][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:19.092463][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:19.122055][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:19.150971][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:19.175111][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:19.200328][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:19.223332][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:19.240807][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:19.26543][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:19.29225][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:19.326082][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:19.353436][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:19.385866][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:19.409608][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:19.437922][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:19.462143][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:19.490519][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:19.518604][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:19.550847][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:19.574189][WARN] Stop loss: XLK (-3.09%) 
+[2026-01-11 17:17:19.600766][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:19.621993][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:19.650926][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:19.675868][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:19.703851][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:19.732611][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:19.799088][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:19.832839][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:19.863039][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:19.882821][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:19.906447][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:19.935152][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:19.963682][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:19.989628][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:20.015943][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:20.040487][WARN] Stop loss: VTI (-6.05%) 
+[2026-01-11 17:17:20.068889][WARN] Stop loss: VIG (-5.86%) 
+[2026-01-11 17:17:20.093982][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:20.122248][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:20.143101][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:20.168614][WARN] Stop loss: XLK (-2.05%) 
+[2026-01-11 17:17:20.197086][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:20.222834][INFO] Take profit: VTI (9.66%) 
+[2026-01-11 17:17:20.24268][INFO] Take profit: VIG (7.13%) 
+[2026-01-11 17:17:20.275875][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:20.299757][WARN] Stop loss: SPY (-4.48%) 
+[2026-01-11 17:17:20.322389][WARN] Stop loss: XLK (-4.77%) 
+[2026-01-11 17:17:20.341484][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:20.368477][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:20.404778][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:20.430009][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:20.457737][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:20.491662][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:20.519725][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:20.546915][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:20.570192][WARN] Stop loss: GLD (-2.43%) 
+[2026-01-11 17:17:20.597927][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:20.623448][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:20.653883][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:20.680587][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:20.716597][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:20.742519][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:20.813177][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:20.841682][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:20.868709][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:20.897161][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:20.921814][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:20.956349][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:20.981971][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:21.008336][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:21.036985][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:21.06497][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:21.093616][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:21.113712][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:21.13659][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:21.162144][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:21.188095][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:21.223336][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:21.251306][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:21.276344][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:21.302049][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:21.323145][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:21.350786][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:21.379782][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:21.407038][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:21.439142][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:21.471715][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:21.506437][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:21.534664][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:21.567026][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:21.597766][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:21.621897][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:21.645799][WARN] Stop loss: XLK (-2.18%) 
+[2026-01-11 17:17:21.672158][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:21.697594][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:21.767412][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:21.797267][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:21.823561][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:21.850678][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:21.885669][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:21.908742][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:21.936549][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:21.959341][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:21.990258][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:22.025251][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:22.089675][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:22.116657][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:22.141486][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:22.165847][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:22.195256][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:22.22319][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:22.247574][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:22.273425][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:22.301705][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:22.32948][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:22.355276][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:22.383218][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:22.406948][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:22.439171][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:22.463171][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:22.490398][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:22.524939][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:22.552519][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:22.582696][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:22.614518][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:22.638378][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:22.664857][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:22.689248][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:22.721182][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:22.803813][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:22.831306][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:22.857156][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:22.883992][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:22.908736][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:22.94027][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:22.959171][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:22.988468][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:23.008681][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:23.086021][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:23.126594][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:23.166652][WARN] Stop loss: GLD (-6.64%) 
+[2026-01-11 17:17:23.22896][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:23.260678][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:23.286126][WARN] Stop loss: GLD (-2.82%) 
+[2026-01-11 17:17:23.308978][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:23.334142][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:23.363189][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:23.391974][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:23.4232][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:23.44921][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:23.473313][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:23.502637][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:23.528782][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:23.55331][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:23.57467][WARN] Stop loss: XLK (-3.19%) 
+[2026-01-11 17:17:23.603793][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:23.670782][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:23.699348][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:23.724814][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:23.758628][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:23.784018][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:23.824674][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:23.874299][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:23.901959][WARN] Stop loss: XLK (-2.94%) 
+[2026-01-11 17:17:23.923614][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:23.948069][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:23.969089][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:23.993164][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:24.02388][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:24.051662][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:24.086142][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:24.113803][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:24.137704][ERROR] CIRCUIT BREAKER: DD=-20.08% 
+[2026-01-11 17:17:24.164076][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:24.187361][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:24.216745][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:24.240945][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:24.271906][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:24.306411][WARN] Covmat inválida, regularizando 
+[2026-01-11 17:17:24.330369][WARN] QP error: constraints are inconsistent, no solution! 
+[2026-01-11 17:17:24.356462][INFO] ✓ Confidence preparada para retorno: 1766 x 10 
+[2026-01-11 17:17:24.385756][INFO] Simulación OK | NAV final: 2123443.17 | Trades: 673 
+[2026-01-11 17:17:24.57067][INFO] Generando reportes... 
+[2026-01-11 17:17:27.666467][INFO] Guardado: models_all.rds 
+[2026-01-11 17:17:27.716946][INFO] Guardado: signals.rds 
+[2026-01-11 17:17:27.767376][INFO] Guardado: metrics.rds 
+[2026-01-11 17:17:27.829292][INFO] Guardado: confidence.rds 
+[2026-01-11 17:17:27.853419][INFO] ✓ Datos de confianza guardados 
+[2026-01-11 17:17:28.008157][INFO] CSV guardado: performance_summary.csv 
+[2026-01-11 17:17:28.174063][INFO] ✓ Gráfico NAV guardado 
+[2026-01-11 17:17:28.364244][INFO] ✓ Gráfico benchmark guardado 
+[2026-01-11 17:17:29.013461][INFO] ✓ Reportes en: Resultados_PRO_v6 
+[2026-01-11 17:17:30.191043][INFO] ✓ Confidence cargada desde caché 

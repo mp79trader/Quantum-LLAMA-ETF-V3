@@ -1,0 +1,50 @@
+# Archivos de IDE y editores
+.vscode/
+.idea/
+*.Rproj
+.Rproj.user/
+.Rhistory
+.RData
+*.swp
+*.swo
+*~
+
+# Resultados y datos temporales
+Resultados_PRO_v6/*.rds
+Resultados_PRO_v6/*.csv
+Resultados_PRO_v6/*.png
+Resultados_PRO_v6/*.xlsx
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+*.log
+
+# Artifacts de desarrollo
+.gemini/
+
+# Node modules (si usas alguna herramienta JS)
+node_modules/
+
+# Archivos de backup
+*.bak
+*.backup
+*~
+
+# Archivos grandes
+*.zip
+*.tar.gz
+*.rar
+
+# Credenciales (NUNCA subir)
+.env
+.env.local
+credentials.json
+secrets.yaml
+
+# Electron Build Artifacts
+electron_build/
+*.exe
+*.msi
+dist/
+out/

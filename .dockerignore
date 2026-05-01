@@ -1,0 +1,35 @@
+# Archivos de Git
+.git
+.gitignore
+.gitattributes
+
+# Archivos de IDE
+.vscode/
+.idea/
+*.Rproj
+.Rproj.user/
+
+# Resultados y datos temporales
+Resultados_PRO_v6/*.rds
+Resultados_PRO_v6/*.csv
+Resultados_PRO_v6/*.png
+*.RData
+*.Rhistory
+
+# Documentación de desarrollo
+README.md
+*.md
+!DEPLOYMENT.md
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+*.log
+
+# Artifacts de desarrollo
+.gemini/
+brain/
+
+# Archivos grandes innecesarios
+*.zip
+*.tar.gz

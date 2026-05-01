@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: quantum-llama-etf
+    env: docker
+    plan: standard # 2GB RAM recomendado para análisis de datos
+    region: oregon # Cambia según tu ubicación
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: PORT
+        value: 3838
+      - key: R_LIBS_USER
+        value: /app/rlibs
+    healthCheckPath: /
+    autoDeploy: true
